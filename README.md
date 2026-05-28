@@ -29,3 +29,10 @@ Result:
 ![image](https://github.com/GISermyk/S2_GF-1-removal-detection-in-matlab/assets/92797972/3c1cf3d1-85ab-4205-850b-44f35e65ce63)
 
 https://code.earthengine.google.com/8599753b0ec260070414a87fc5e92b0b
+Region_info_Test = {
+    'region1': {'name':"Selune", 'mask':[[-1.878587, -1.400681], [48.5572005, 48.844515]]},
+    'region2': {'name':"Gyeonggi", 'mask':[[125.773383, 126.5589062], [37.390084, 37.9953624]]},
+    'region3': {'name':'Wadden', 'mask': [[7.844741, 9.0916895], [53.383728, 54.14835154]]},
+    'region4': {'name': 'Colorado', 'mask':[[-115.1388513, -114.0841638], [31.196099, 32.11721967]]},
+    'region5': {'name': 'Amazon', 'mask': [[-50.576547, -49.34607841], [-0.21391724, 0.75835015]]}
+}
