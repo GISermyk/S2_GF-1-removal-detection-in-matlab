@@ -28,3 +28,4 @@ Key words： Sentinel-2, GF-1, invasive species, spartina alterniflora managemen
 Result:
 ![image](https://github.com/GISermyk/S2_GF-1-removal-detection-in-matlab/assets/92797972/3c1cf3d1-85ab-4205-850b-44f35e65ce63)
 
+https://code.earthengine.google.com/8599753b0ec260070414a87fc5e92b0b
