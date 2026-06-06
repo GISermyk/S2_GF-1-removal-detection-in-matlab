@@ -36,3 +36,22 @@ Region_info_Test = {
     'region4': {'name': 'Colorado', 'mask':[[-115.1388513, -114.0841638], [31.196099, 32.11721967]]},
     'region5': {'name': 'Amazon', 'mask': [[-50.576547, -49.34607841], [-0.21391724, 0.75835015]]}
 }
+
+import numpy as np
+from pathlib import Path
+Province_list = {
+    'LN': ['Liaohe_estuary', 'Dalianshi', 'Dandong', 'Huludao', 'Liaodong_bay', 'Liaodong_bay2', 'Lichangshan',  'Qinghuangdao'],
+    'SD': ['YRD','Dingzi_gang', 'Jiaozhou_bay', 'Dongyin_gang', 'Rushan_kou', 'Weihai', 'Laoshan_bay','Wuleidao','Yantai', 
+           'Wuleidao','Yantai', 'Huangjiatang_bay', 'Laizhou_bay', 'Laizhou_bay2','Laizhou_bay3'],
+    'HB': ['Qinghuangdao', 'Bohai_bay2', 'Bohai_bay3']  ,
+    'JS': ['Nantong', 'Dongsha', 'Sheyang_estuary', 'Guanghe_estuary', 'Haizhou_bay', 'Shanghai'],
+    'ZJ': ['Hangzhou_bay', 'Ningbo', 'Sanmen_bay', 'Taizhou', 'Wenzhou', 'Yueqing_bay'],
+    'FJ': ['Fuzhou', 'Putian', 'Quanzhou', 'Sanmen_gang', 'Sansha_bay', 'Zhangzhou',  'FujianSouth'],
+    'GD': ['Yangjiangshi', 'Jiangmenshi','Zhujiang_estuary', 'Xianggang', 'Shenquan_gang','Macau',
+           'Shantoushi','Shanweishi', 'Leizhoushi','Maomingshi' , 'Zhanjiangshi'],
+    'GX': ['Beibu_bay', 'Fangcheng_gang'],
+    'HN': ['Wenchangshi','Lingaoshi', 'Haikoushi', 'HN_west'],
+    'TW': ['Taibeishi', 'Tainan', 'Tainan2', 'Taizhong']
+}
+
+province_name_list = ['LN', 'SD', 'HB', 'JS', 'ZJ', 'FJ', 'GD', 'GX', 'HN', 'TW']
